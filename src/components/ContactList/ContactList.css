@@ -1,0 +1,162 @@
+.listWrapper {
+  display: flex;
+  justify-content: center;
+}
+.contactList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: auto;
+  padding: 0 10px 0 10px;
+}
+
+.listHeader {
+  color: rgb(170, 169, 169);
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  align-items: center;
+}
+
+
+.allUser{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: auto;
+  max-width: 768px;
+}
+
+.item {
+  padding: 0 10px 0 50px;
+  background-color: rgb(62, 62, 62);
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 4px;
+  margin-top: 20px;
+  border-radius: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
+}
+.item a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.users{
+  display: flex;
+  align-items: center;
+}
+
+.item button {
+  cursor: pointer;
+  border: 1px solid #dc2626;
+  color: #dc2626;
+  padding: 5px 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.item .editByn{
+  margin-right: 1rem;
+  border: 1px solid #6d28d9;
+  color: #6d28d9;
+}
+.item img {
+  width: 25px;
+  height: 25px;
+  margin: 0 10px 0 5px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.item .user {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ToolBar{
+  color: #fff;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  max-width: 768px;
+  height: auto;
+}
+
+.test{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 90%;
+  height: auto;
+  padding-right: 10px;
+}
+
+.ToolBar button{
+  color: #fff;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 7px;
+  width: 20px;
+  height: 25px;
+}
+.ToolBar svg{
+  cursor: pointer;  
+}
+
+.search{
+  display: flex;
+  width:  20px;
+  height: 20px;
+}
+
+.searchInp{
+  display: flex;
+  padding: 5px;
+  width: 100%;
+  height: 25px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+
+.hideSInp{
+  transition: all 0.3s;
+  width: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.hide{
+  display: none;
+}

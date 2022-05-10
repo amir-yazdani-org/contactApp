@@ -1,0 +1,74 @@
+.addNew {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100vw;
+  height: auto;
+  max-width: 768px;
+}
+
+form {
+  width: 80%;
+  height: auto;
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+.formControl {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  font-size: 20px;
+  color: #dddddd;
+}
+
+.formControl input {
+  width: 100%;
+  padding: 3px 5px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.formControl input:focus {
+  border: 2px solid #7c3aed;
+}
+
+.btn {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cancel {
+  background: transparent !important;
+  border: 1px solid #ccc !important;
+
+}
+
+.btn button {
+  background: #7c3aed;
+  width: 100%;
+  height: 30px;
+  cursor: pointer;
+  margin: 25px 0 0 0;
+  color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
