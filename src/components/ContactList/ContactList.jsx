@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Contact from "../Contact/Contact";
 import getContacts from "../../services/getContactsService";
 import { useEffect, useState } from "react";
-import deleteOneContacts from "../../services/deleteContactsService";
 
 const ContactList = (props) => {
   const [contacts, setContacts] = useState(null);
